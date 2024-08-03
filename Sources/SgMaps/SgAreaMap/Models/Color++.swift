@@ -8,6 +8,7 @@
 import SwiftUI
 
 public extension Color {
+    
     init(hex: String) {
         let hexSanitized = hex
             .replacingOccurrences(of: "#", with: "")
